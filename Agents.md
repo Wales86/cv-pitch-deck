@@ -32,3 +32,4 @@ When modifying the code:
 1. Preserve the specific messaging targeting Central Point.
 2. Review `src/index.css` before adding new styles to ensure you reuse existing utility classes (`.section`, `.btn`, `.features-grid`).
 3. Always verify changes locally using `npm run dev` or build validation `npm run build` before considering the task complete.
+
