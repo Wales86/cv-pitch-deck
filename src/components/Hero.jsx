@@ -40,7 +40,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}
           >
-            <p><strong>Quick note before we start:</strong> My written/reading English is fluent. My spoken English is currently communicative (B2). I haven't had the chance to use it daily, so I might be a bit stressed at the beginning, but I am very eager to immerse myself in an English-speaking environment and get up to speed quickly!</p>
+            <p>Backend PHP developer with over 10 years of experience, dedicated to self-development and continuous growth. With 6 years of full-stack development experience, currently working at Przelewy24, Poland's largest fintech company, developing and optimizing e-commerce payment solutions. Proficient in PHP, JavaScript, and frameworks such as Symfony, Laravel, VueJS, and React.js. I specialize in working with legacy code, refactoring, and system performance improvements. Leveraging AI-powered tools to boost development efficiency. Focused on delivering high-quality work on time and being a valuable team member.</p>
           </motion.div>
           
           <motion.div 
@@ -48,8 +48,10 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.0 }}
+            style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}
           >
             <a href="#about-me" className="btn btn-primary">View My Profile</a>
+            <a href="#why-work-together" className="btn btn-secondary">Why We Should Work Together</a>
           </motion.div>
         </div>
         <div className="hero-image-container">
