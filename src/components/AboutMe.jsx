@@ -98,7 +98,7 @@ export default function AboutMe() {
               </div>
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
-                <h4>Co-Founder & IT Lead @ Illuminart.pl</h4>
+                <h4>Co-Founder & IT Lead @ <a href="https://illuminart.pl" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Illuminart.pl</a></h4>
                 <p className="timeline-date">2024 - Present</p>
                 <p>Running a custom e-commerce business on B2B terms.<br/>
                 Built the entire IT infrastructure and e-commerce platform using Shopware 6 (PHP).<br/>
@@ -120,6 +120,14 @@ export default function AboutMe() {
                 <p><strong>Apteline.pl:</strong> Developed an e-commerce platform for a top Polish pharmacy client. Debugged and optimized using NewRelic and Kibana. Stack: Magento, Typo3.<br/>
                 <strong>Benefitsystems.pl:</strong> Developed modules for integrating third-party applications with the Typo3 framework. Provided technical support to end-users.</p>
               </div>
+              <div className="timeline-item">
+                <div className="timeline-dot"></div>
+                <h4>PHP Developer @ Couporando (Poznań)</h4>
+                <p className="timeline-date">05.2015 - 12.2016</p>
+                <p>Developed a voucher platform using PHP, HTML, CSS, jQuery, and MySQL.<br/>
+                Debugged and tested the application for performance and accuracy.<br/>
+                Developed modules for integrating third-party applications.</p>
+              </div>
             </div>
           </motion.div>
 
@@ -132,16 +140,16 @@ export default function AboutMe() {
             <h3>Featured Side-Projects</h3>
             <ul className="project-list">
               <li>
-                <strong>Marketing Data AI Agent (Illuminart.pl):</strong> A custom AI agent I built to analyze data from GA4, Google Ads, and Search Console. It tracks the changes implemented by our external marketing agency and correlates them with actual sales results so we know exactly what we are paying for. <a href="#" className="text-primary hover:underline" style={{ fontSize: '0.85rem' }}>[Link to GitHub Repo]</a>
+                <strong>Marketing Data AI Agent (<a href="https://illuminart.pl" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Illuminart.pl</a>):</strong> A custom AI agent I built to analyze data from GA4, Google Ads, and Search Console. It tracks the changes implemented by our external marketing agency and correlates them with actual sales results so we know exactly what we are paying for. <a href="https://github.com/Wales86/illuminart-ads-agent/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline" style={{ fontSize: '0.85rem', color: 'var(--accent-primary)' }}>[Link to GitHub Repo]</a>
               </li>
               <li>
-                <strong>Crypto Trading App (API):</strong> A personal tool built with Laravel and Vue.js. Features real-time updates and websockets for live market data. <a href="#" className="text-primary hover:underline" style={{ fontSize: '0.85rem' }}>[Link to GitHub Repo]</a>
+                <strong>Crypto Trading App (API):</strong> A personal tool built with Laravel and Vue.js. Features real-time updates and websockets for live market data.
               </li>
               <li>
                 <strong>Net-Worth & Asset Tracker (WIP):</strong> Currently developing a comprehensive tracking tool for personal finance, global index ETFs, and crypto portfolios.
               </li>
               <li>
-                <strong>Auto Repair Shop Manager (10xDevs MVP):</strong> Built with Laravel, Inertia.js, and React to test Spec-Driven Development using AI tools.
+                <strong>Auto Repair Shop Manager (10xDevs MVP):</strong> Built with Laravel, Inertia.js, and React to test Spec-Driven Development using AI tools. <a href="https://github.com/Wales86/fixflow" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline" style={{ fontSize: '0.85rem', color: 'var(--accent-primary)' }}>[Link to GitHub Repo]</a>
               </li>
             </ul>
 

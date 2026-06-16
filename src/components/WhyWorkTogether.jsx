@@ -86,6 +86,7 @@ export default function WhyWorkTogether() {
             <p><strong>B2B & Independence:</strong> I already operate as a B2B sole proprietor, which fits perfectly with Top Three Devs' contract structure.</p>
             <p className="mt-2"><strong>Entrepreneurial Perspective:</strong> As a co-owner of an active e-commerce store, I don't just look at code. I look at the product from a founder's perspective. I know that software must solve business problems and generate revenue first.</p>
             <p className="mt-2"><strong>Self-Management:</strong> You mentioned a culture with no micromanagement. Between my remote work, side projects, and business, managing my own time and delivering results asynchronously is my standard mode of operation.</p>
+            <p className="mt-2"><strong>Startup DNA & Direct Impact:</strong> I thrive in smaller, agile teams rather than massive corporate structures. In my past experiences (and in my own e-commerce business), I enjoyed having a direct impact on the product, fast feedback loops, and a close working relationship with the founders. Your setup—working directly with the Lead Developer and the Founder without layers of middle management—is exactly the environment I am looking for.</p>
           </motion.div>
 
           <motion.div 
