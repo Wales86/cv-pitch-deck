@@ -99,7 +99,7 @@ export default function AboutMe() {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <h4>Co-Founder & IT Lead @ <a href="https://illuminart.pl" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Illuminart.pl</a></h4>
-                <p className="timeline-date">2024 - Present</p>
+                <p className="timeline-date">2025 - Present</p>
                 <p>Running a custom e-commerce business on B2B terms.<br/>
                 Built the entire IT infrastructure and e-commerce platform using Shopware 6 (PHP).<br/>
                 Implemented full CI/CD pipelines and advanced customizations for personalized products.<br/>
