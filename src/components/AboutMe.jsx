@@ -143,6 +143,9 @@ export default function AboutMe() {
                 <strong>Marketing Data AI Agent (<a href="https://illuminart.pl" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Illuminart.pl</a>):</strong> A custom AI agent I built to analyze data from GA4, Google Ads, and Search Console. It tracks the changes implemented by our external marketing agency and correlates them with actual sales results so we know exactly what we are paying for. <a href="https://github.com/Wales86/illuminart-ads-agent/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline" style={{ fontSize: '0.85rem', color: 'var(--accent-primary)' }}>[Link to GitHub Repo]</a>
               </li>
               <li>
+                <strong>Standalone Product Creator (<a href="https://illuminart.pl" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Illuminart.pl</a>):</strong> A sleek, standalone visualization tool built with React. Designed to bypass marketplace link restrictions, it allows customers to interactively configure and preview personalized products directly. <a href="https://creator.illuminart.pl/?m=wood&f=Classic&bg=child-room&s=M&glow=1" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline" style={{ fontSize: '0.85rem', color: 'var(--accent-primary)' }}>[Live App]</a>
+              </li>
+              <li>
                 <strong>Crypto Trading App (API):</strong> A personal tool built with Laravel and Vue.js. Features real-time updates and websockets for live market data.
               </li>
               <li>
