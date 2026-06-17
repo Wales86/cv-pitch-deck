@@ -15,7 +15,7 @@ export default function WhyWorkTogether() {
         </motion.h2>
         <div style={{ marginBottom: '4rem', marginTop: '-2rem', textAlign: 'center' }}>
           <p style={{ fontSize: '1.2rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>
-            A conversation agenda highlighting how my background aligns perfectly with Central Point's goals.
+            A conversation agenda highlighting how my background aligns perfectly with Center Point's goals.
           </p>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', maxWidth: '800px', margin: '0 auto', opacity: 0.8 }}>
             <strong>Quick note:</strong> My written/reading English is fluent. My spoken English is currently communicative (B2). I haven't had the chance to use it daily, so I might be a bit stressed at the beginning, but I am very eager to immerse myself in an English-speaking environment and get up to speed quickly!
@@ -102,7 +102,7 @@ export default function WhyWorkTogether() {
               <h3>5. AI as a Business & Development Tool</h3>
             </div>
             <p>While I know the immediate priority is stabilizing the current system, I am a huge advocate for practical AI implementation. Thanks to courses like 10xDevs and Google Skills of Tomorrow, I use coding agents to understand legacy code faster and speed up daily tasks.</p>
-            <p className="mt-2">Beyond the code, I look for business optimizations - like the AI agent I built for my e-commerce store to audit our marketing agency's ROI. In the future, I'd love to help brainstorm how AI could add value directly to the Central Point platform.</p>
+            <p className="mt-2">Beyond the code, I look for business optimizations - like the AI agent I built for my e-commerce store to audit our marketing agency's ROI. In the future, I'd love to help brainstorm how AI could add value directly to the Center Point platform.</p>
           </motion.div>
         </div>
       </div>
