@@ -70,6 +70,7 @@ body {
   margin-bottom: 3rem;
   background: linear-gradient(to right, var(--text-main), var(--text-muted));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .text-center { text-align: center; }
@@ -312,3 +313,139 @@ body {
 .feature-card h3 { font-size: 1.3rem; margin-bottom: 0; }
 .feature-card p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 0.5rem; }
 .feature-card strong { color: var(--text-main); }
+
+/* Mobile Nav Toggle */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  z-index: 110;
+}
+.nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--text-main);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+.nav-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.nav-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* ========================================
+   RESPONSIVE – Tablet (≤1024px)
+   ======================================== */
+@media (max-width: 1024px) {
+  .navbar { padding: 1.25rem 2rem; }
+  .section { padding: 4rem 2rem; }
+  .hero-section { padding: 8rem 2rem 4rem; }
+
+  .hero-content { gap: 2rem; }
+  .hero-text h1 { font-size: 3.5rem; }
+  .profile-image { width: 280px; height: 280px; }
+
+  .section-title { font-size: 2rem; }
+  .section-subtitle { font-size: 1.05rem; }
+}
+
+/* ========================================
+   RESPONSIVE – Mobile landscape / small tablet (≤768px)
+   ======================================== */
+@media (max-width: 768px) {
+  /* Show hamburger, hide desktop links */
+  .nav-toggle { display: flex; }
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 75vw;
+    max-width: 320px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    background: rgba(10, 10, 12, 0.97);
+    backdrop-filter: blur(16px);
+    padding: 2rem;
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 105;
+    border-left: 1px solid var(--border-color);
+  }
+  .nav-links.open { transform: translateX(0); }
+  .nav-links a { font-size: 1.15rem; }
+
+  /* Mobile overlay backdrop */
+  .nav-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 104;
+  }
+  .nav-overlay.open { display: block; }
+
+  /* Hero stacks vertically */
+  .hero-section { padding: 7rem 1.5rem 3rem; min-height: auto; }
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .hero-text h1 { font-size: 2.8rem; }
+  .subtitle { font-size: 1.25rem; }
+  .tech-stack-preview { font-size: 1rem; }
+  .hero-note { font-size: 0.9rem; padding: 1.2rem; }
+  .hero-actions { justify-content: center; }
+  .hero-image-container { margin-bottom: 1rem; }
+  .profile-image { width: 220px; height: 220px; }
+
+  /* Sections */
+  .navbar { padding: 1rem 1.5rem; }
+  .section { padding: 3rem 1.5rem; }
+  .section-title { font-size: 1.75rem; margin-bottom: 2rem; }
+
+  /* About grid stacks */
+  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+
+  /* Hobby card */
+  .hobby-card { flex-direction: column; text-align: center; }
+  .hobby-image { width: 100%; max-width: 200px; height: auto; aspect-ratio: 1; }
+}
+
+/* ========================================
+   RESPONSIVE – Small phones (≤480px)
+   ======================================== */
+@media (max-width: 480px) {
+  .hero-section { padding: 6rem 1rem 2rem; }
+  .hero-text h1 { font-size: 2.2rem; }
+  .subtitle { font-size: 1.1rem; }
+  .profile-image { width: 180px; height: 180px; }
+
+  .navbar { padding: 0.8rem 1rem; }
+  .logo { font-size: 1rem; }
+  .section { padding: 2.5rem 1rem; }
+  .section-title { font-size: 1.5rem; margin-bottom: 1.5rem; }
+  .section-subtitle { font-size: 0.95rem; margin-bottom: 2rem; }
+
+  .feature-card { padding: 1.5rem; }
+  .feature-card h3 { font-size: 1.1rem; }
+  .feature-card p { font-size: 0.88rem; }
+
+  .btn { padding: 0.7rem 1.5rem; font-size: 0.9rem; }
+
+  .timeline { padding-left: 1rem; margin-left: 0.25rem; }
+  .timeline-item h4 { font-size: 1rem; }
+  .timeline-dot { left: -1.35rem; width: 10px; height: 10px; }
+}
